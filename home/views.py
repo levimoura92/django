@@ -14,4 +14,4 @@ def home(request):
 	#	"title": title,
 		"form":form,
 	}
-	return render(request, 'home.html', {})
+	return render(request, 'home.html', context)
