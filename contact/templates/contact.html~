@@ -1,0 +1,11 @@
+{% load staticfiles %}
+<html>
+	<head>
+		{% include 'bootstrapcss.html' %}
+	</head>
+	<body>
+		{% include 'navbar.html' %}
+		
+		{% include 'bootstrapjs.html' %}
+	</body>
+</html>
