@@ -5,11 +5,12 @@
 	</head>
 	<body>
 		{% include 'navbar.html' %}
-		
-	<form method='POST'>{% csrf_token %}
-		{{form.as_p}}
-		<input type='submit' value='send'/>
-	</form>
+		<div>
+			<form method='POST'>{% csrf_token %}
+				{{form.as_p}}
+				<input type='submit' value='send'/>
+			</form>
+		</div>
 		{% include 'bootstrapjs.html' %}
 	</body>
 </html>
